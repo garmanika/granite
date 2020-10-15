@@ -1,0 +1,17 @@
+$text: #292929;;
+
+@mixin f200 {
+  font-family:"GothamPro", sans-serif;
+  font-weight: 200;
+}
+@mixin f500 {
+  font-family: "GothamPro", sans-serif;
+  font-weight: 500;
+}
+@mixin f700 {
+  font-family: "GothamPro", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+

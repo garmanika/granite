@@ -1,0 +1,76 @@
+@import "_vars";
+@import "_global";
+@import "_fonts";
+// start header
+.header {
+  padding-top: 30px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__name {
+  margin-right: auto;
+  margin-left: 14px;
+  @include f700;
+  span {
+    display: block;
+    color: #969696;
+    font-size: 11px;
+    @include f200;
+    text-transform: initial;
+  }
+}
+.header__phone {
+  margin-right: 30px;
+  color: #969696;
+  font-size: 11px;
+  a {
+    font-size: 18px;
+    @include f700;
+    text-align: right;
+    text-transform: uppercase;
+    display: block;
+  }
+}
+.header__link {
+  padding: 7px 15px;
+  border: 2px solid #292929;
+  a {
+    color: #292929;
+    font-size: 12px;
+    @include f500;
+  }
+}
+
+.header__navigation {
+  background-color: #ffcc00;
+  padding: 18px 50px;
+  position: relative;
+  top: 20px;
+  li {
+    color: #000000;
+    font-size: 14px;
+    @include f500;
+    & + li {
+      margin-left: 95px;
+    }
+  }
+}
+// end header
+// stert delivery
+.delivery {
+  min-height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #ffffff;
+  margin-top: -6px;
+}
+// end delivery
+
+@import "_media";
