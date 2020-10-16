@@ -1,16 +1,15 @@
 $text: #292929;;
 
-@mixin f200 {
-  font-family:"GothamPro", sans-serif;
-  font-weight: 200;
+@mixin f300 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 @mixin f500 {
-  font-family: "GothamPro", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
 @mixin f700 {
-  font-family: "GothamPro", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
- 
 }
 
