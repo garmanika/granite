@@ -12,4 +12,8 @@ $text: #292929;;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
+@mixin icomoon {
+  font-family: 'icomoon';
+  position: absolute;
+}
 

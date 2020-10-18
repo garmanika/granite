@@ -40,12 +40,12 @@
             <div class="header__bottom">
               <nav class="header__navigation">
                 <ul>
-                  <li>Главная</li>
-                  <li>Каталог</li>
-                  <li>Услуги</li>
-                  <li>Доставка</li>
-                  <li>О компании</li>
-                  <li>Контакты</li>
+                  <li><a href="#">Главная</a> </li>
+                  <li><a href="#">Каталог</a> </li>
+                  <li><a href="#">Услуги</a> </li>
+                  <li><a href="#">Доставка</a> </li>
+                  <li><a href="#">О компании</a> </li>
+                  <li><a href="#">Контакты</a>  </li>
                 </ul>
               </nav>
             </div>
@@ -73,7 +73,7 @@
             </div>
           </div>
         </section>
-        <section class="products">
+        <section class="products" style="background-color: #f4f4f4">
           <div class="container">
             <div class="products__title title">Всегда в наличии</div>
             <div class="products__items carts">
@@ -110,7 +110,7 @@
             </div>
           </div>
         </section>
-        <section class="advantages">
+        <section class="advantages" style="background-color: #f4f4f4">
           <div class="container">
             <div class="advantages__title title">Наши преимущества</div>
             <div class="advantages__items carts">
@@ -192,11 +192,11 @@
             </div>
           </div>
         </section>
-        <section class="services">
+        <section class="services" style="background-color: #f4f4f4">
           <div class="container">
             <div class="services__title title">Наши услуги</div>
             <div class="services__items carts">
-              <div class="services__item carts">
+              <div class="services__item cart">
                 <a href="#">
                   <img src="images/services__item.png" alt="" />
                   <div class="services__item-title cart__title">
@@ -227,22 +227,48 @@
           class="contacts"
           style="background-image: url(images/contacts-bg.png)"
         >
-        <div class="container">
+          <div class="container">
+            <div class="contacts__wrapper">
               <div class="contacts__info">
                 <ul class="contacts__info-detail">
                   <li class="contacts__info-title">Контакты</li>
-                  <li class="icon-phone">8 800 034-23-34 8 495 034-23-34</li>
-                  <li class="icon-envelope">
+                  <li class="contacts__info-phone">
+                    <a href="tel:88000342334">8 800 034-23-34</a>
+                    <a href="tel:84950342334">8 495 034-23-34</a>
+                  </li>
+                  <li class="contacts__info-adress">
                     Московская обл. г. Балашиха, пер. Столовой, д.23, кор. 34
                   </li>
-                  <li class="icon-location">Info@stroika.ru</li>
+                  <li class="contacts__info-mail">
+                    <a href="mailto:Info@stroika.ru">Info@stroika.ru</a>
+                  </li>
                 </ul>
               </div>
-          
-         </div>
+            </div>
+          </div>
         </section>
       </div>
-      <footer class="footer"></footer>
+      <footer class="footer" style="background-color: #292929">
+        <div class="container">
+          <div class="footer__wrapper">
+            <a href="#"><img src="images/footer__img.png" alt=""></a>
+           
+            <div class="footer__logo">
+              <h3 class="footer__logo-title">granit</h3>
+              <p class="footer__logo-desc">Доставка нерудных материалов</p>
+            </div>
+            <div class="footer__call">
+              <a href="tel:88003421333">8 800 342-13-33</a>
+              <div class="footer__call-free">Бесплатный звонок по России</div>
+            
+            </div>
+          </div>
+          <div class="footer__bootom">
+            <h3>© 2016. Гранит</h3>
+            <a href="#">Обратный звонок</a>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
